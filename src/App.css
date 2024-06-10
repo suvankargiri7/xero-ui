@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-bordered {
+  width: 100%;
+}
+
+.custom-bordered thead {
+  background-color: #303030;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid #303030;
+}
+
+.custom-bordered tbody tr {
+  border: 1px solid #303030;
+}
+
+.custom tbody tr.table-section-withoutrow td {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #d96704;
+  text-align: center;
+}
+
+.custom tbody tr.table-section-withrow {
+  background: #818385;
+}
+
+.custom tbody tr.table-section-withrow td {
+  padding: 2px 0;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.custom tbody tr td:nth-child(1) {
+  border-right: 1px solid #303030;
+}
+
+.custom tbody tr td:nth-child(3) {
+  border-left: 1px solid #303030;
+}
+
+.custom tbody tr td {
+  font-size: 14px;
+}
+
+.custom tbody tr td.less-than-zero {
+  color: #d96704;
+}
+
+.custom tbody tr.table-summary-row {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.custom tbody tr.table-summary-row td:nth-child(1) {
+  background: #3c8c30;
+  color: #fff;
+  border-right: 1px solid #303030;
+  padding: 5px 0;
+}
+
+.custom tbody tr.table-summary-row td:nth-child(3) {
+  color: #3c8c30;
+  border-left: 1px solid #303030;
+  font-weight: bold;
+}
+
+.custom tbody tr.table-summary-row td:nth-child(2) {
+  color: #3c8c30;
+  font-weight: bold;
+}
